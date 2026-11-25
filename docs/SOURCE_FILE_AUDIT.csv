@@ -1,0 +1,142 @@
+original_file,disposition,new_location,notes
+.gitignore.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+AGENTS.md.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+CLAUDE.md.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+README.md.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+base44/config.jsonc.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+base44/entities/User.jsonc.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
+components.json.txt,Reviewed/replaced as needed,,UI configuration reviewed; Vite alias and package setup now define active project configuration.
+eslint.config.js.txt,Reviewed/replaced as needed,,UI configuration reviewed; Vite alias and package setup now define active project configuration.
+jsconfig.json.txt,Reviewed/replaced as needed,,UI configuration reviewed; Vite alias and package setup now define active project configuration.
+package.json.txt,Replaced,client/package.json and server/package.json,Dependencies split into React/Vite client and Express/Mongoose server; Base44/TanStack packages removed.
+postcss.config.js.txt,Copied,client/postcss.config.js,PostCSS pipeline retained for static CSS compilation.
+src/api/base44Client.js.txt,Replaced,client/src/api/base44Client.js,Base44 client interface replaced with REST adapter for Express auth endpoints.
+src/component/DefaultCatchBoundary.jsx.txt,Copied; imports adjusted where required,client/src/components/DefaultCatchBoundary.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/NotFound.jsx.txt,Copied; imports adjusted where required,client/src/components/NotFound.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/approach/StageTimeline.jsx.txt,Copied; imports adjusted where required,client/src/components/approach/StageTimeline.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/AuthGate.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/AuthLayout.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/AuthLayout.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/ConsentPage.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/ForgotPasswordPage.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/ForgotPasswordPage.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/GoogleIcon.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/GoogleIcon.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/LoginPage.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/LoginPage.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/MfaFlow.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/MfaManage.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/MfaMethodSetup.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/MfaPage.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/MfaParts.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/RegisterPage.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/RegisterPage.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/ResetPasswordPage.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/ResetPasswordPage.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/auth/UserNotRegistered.jsx.txt,Excluded from active migration,,Base44-specific or dormant authentication/MFA UI; source had no active route wiring for these pages. Rebuild with provider-neutral MFA if required.
+src/component/auth/parts.jsx.txt,Copied; imports adjusted where required,client/src/components/auth/parts.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/contact/ContactForm.jsx.txt,Copied; imports adjusted where required,client/src/components/contact/ContactForm.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/ApproachPreview.jsx.txt,Copied; imports adjusted where required,client/src/components/home/ApproachPreview.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/EditorialGallery.jsx.txt,Copied; imports adjusted where required,client/src/components/home/EditorialGallery.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/Hero.jsx.txt,Copied; imports adjusted where required,client/src/components/home/Hero.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/HeroPlate.jsx.txt,Copied; imports adjusted where required,client/src/components/home/HeroPlate.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/PracticeIntro.jsx.txt,Copied; imports adjusted where required,client/src/components/home/PracticeIntro.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/PuneExpertise.jsx.txt,Copied; imports adjusted where required,client/src/components/home/PuneExpertise.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/ServicesIndex.jsx.txt,Copied; imports adjusted where required,client/src/components/home/ServicesIndex.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/TrustStatement.jsx.txt,Copied; imports adjusted where required,client/src/components/home/TrustStatement.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/WhoWeAdvise.jsx.txt,Copied; imports adjusted where required,client/src/components/home/WhoWeAdvise.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/home/WhyUs.jsx.txt,Copied; imports adjusted where required,client/src/components/home/WhyUs.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/projects/ProjectForm.jsx.txt,Copied; imports adjusted where required,client/src/components/projects/ProjectForm.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/services/ServicePanel.jsx.txt,Copied; imports adjusted where required,client/src/components/services/ServicePanel.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/ActionLink.jsx.txt,Copied; imports adjusted where required,client/src/components/site/ActionLink.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/BrandLockup.jsx.txt,Copied; imports adjusted where required,client/src/components/site/BrandLockup.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/FinalCta.jsx.txt,Copied; imports adjusted where required,client/src/components/site/FinalCta.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/InsightCard.jsx.txt,Copied; imports adjusted where required,client/src/components/site/InsightCard.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/Logo.jsx.txt,Copied; imports adjusted where required,client/src/components/site/Logo.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/Marquee.jsx.txt,Copied; imports adjusted where required,client/src/components/site/Marquee.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/MobileMenu.jsx.txt,Copied; imports adjusted where required,client/src/components/site/MobileMenu.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/PageHero.jsx.txt,Copied; imports adjusted where required,client/src/components/site/PageHero.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/Reveal.jsx.txt,Copied; imports adjusted where required,client/src/components/site/Reveal.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/SectionHeading.jsx.txt,Copied; imports adjusted where required,client/src/components/site/SectionHeading.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/SiteFooter.jsx.txt,Copied; imports adjusted where required,client/src/components/site/SiteFooter.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/sites/SiteHeader.jsx.txt,Copied; imports adjusted where required,client/src/components/site/SiteHeader.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/accordion.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/accordion.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/alert-dialog.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/alert-dialog.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/alert.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/alert.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/aspect-ratio.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/aspect-ratio.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/avatar.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/avatar.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/badge.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/badge.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/breadcrumb.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/breadcrumb.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/button.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/button.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/calendar.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/calendar.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/card.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/card.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/carousel.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/carousel.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/chart.jsx.txt,Excluded,,Source file content is syntactically malformed in uploaded archive and is not imported by the active website pages.
+src/component/ui/checkbox.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/checkbox.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/collapsible.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/collapsible.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/command.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/command.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/context-menu.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/context-menu.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/dialog.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/dialog.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/drawer.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/drawer.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/dropdown-menu.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/dropdown-menu.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/form.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/form.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/hover-card.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/hover-card.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/image-helpers.js.txt,Copied; imports adjusted where required,client/src/components/ui/image-helpers.js,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/image.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/image.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/input-otp.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/input-otp.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/input.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/input.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/label.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/label.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/menubar.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/menubar.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/navigation-menu.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/navigation-menu.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/pagination.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/pagination.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/popover.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/popover.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/progress.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/progress.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/radio-group.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/radio-group.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/resizable.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/resizable.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/responsive-image.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/responsive-image.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/scroll-area.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/scroll-area.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/select.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/select.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/separator.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/separator.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/sheet.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/sheet.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/sidebar.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/sidebar.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/skeleton.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/skeleton.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/slider.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/slider.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/sonner.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/sonner.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/switch.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/switch.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/table.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/table.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/tabs.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/tabs.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/textarea.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/textarea.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/toast.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/toast.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/toaster.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/toaster.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/toggle-group.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/toggle-group.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/toggle.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/toggle.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/tooltip.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/tooltip.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/use-responsive-image.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/use-responsive-image.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/component/ui/use-toast.jsx.txt,Copied; imports adjusted where required,client/src/components/ui/use-toast.jsx,"Reusable UI, site, home, contact, project or auth component retained."
+src/hooks/use-mobile.jsx.txt,Copied,client/src/hooks/use-mobile.jsx,Reusable React hook retained.
+src/hooks/use-size.jsx.txt,Copied,client/src/hooks/use-size.jsx,Reusable React hook retained.
+src/index.css.txt,Copied,client/src/index.css,"Original color tokens, typography, reset and custom animation CSS retained."
+src/lib/AuthContext.jsx.txt,Replaced,client/src/lib/AuthContext.jsx,React auth context now resolves the JWT-backed Express API.
+src/lib/ai.server.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/app-params.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/auth-middleware.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/authMfa.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/authMfaFlow.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/authReturnTo.js.txt,Copied,client/src/lib/authReturnTo.js,Safe auth return-path validation retained.
+src/lib/content.js.txt,Copied,client/src/lib/content.js,Site copy and content data retained.
+src/lib/projectStore.js.txt,Replaced,client/src/lib/projectStore.js,Browser localStorage project store replaced by authenticated MongoDB API client.
+src/lib/query-client.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/server-fns.js.txt,Removed,,Base44/TanStack server adapter or SDK integration replaced by Express API and JWT middleware.
+src/lib/siteConfig.js.txt,Copied,client/src/lib/siteConfig.js,Brand configuration retained; public image URLs still point to Base44 CDN.
+src/lib/utils.js.txt,Copied,client/src/lib/utils.js,Shared class-name utility retained.
+src/router.jsx.txt,Replaced,client/src/App.jsx,TanStack root/layout/router/start lifecycle replaced by React Router and shared SiteLayout.
+src/routes/__root.jsx.txt,Replaced,client/src/App.jsx,TanStack root/layout/router/start lifecycle replaced by React Router and shared SiteLayout.
+src/routes/_site.jsx.txt,Replaced,client/src/App.jsx,TanStack root/layout/router/start lifecycle replaced by React Router and shared SiteLayout.
+src/routes/api/time.js.txt,Converted,server/src/app.js,GET /api/time endpoint recreated in Express.
+src/routes/site/about.jsx.txt,Converted to React Router page,client/src/pages/site/AboutPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/approach.jsx.txt,Converted to React Router page,client/src/pages/site/ApproachPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/contact.jsx.txt,Converted to React Router page,client/src/pages/site/ContactPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/index.jsx.txt,Converted to React Router page,client/src/pages/site/HomePage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/insights.$slug.jsx.txt,Converted to React Router page,client/src/pages/site/insights/InsightDetailPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/insights.index.jsx.txt,Converted to React Router page,client/src/pages/site/insights/InsightsPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/projects.index.jsx.txt,Converted to React Router page,client/src/pages/site/projects/ProjectDeskPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/projects.new.jsx.txt,Converted to React Router page,client/src/pages/site/projects/NewProjectPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/routes/site/services.jsx.txt,Converted to React Router page,client/src/pages/site/ServicesPage.jsx,TanStack route declaration and loader metadata removed; page component retained and registered in client/src/App.jsx.
+src/start.js.txt,Replaced,client/src/App.jsx,TanStack root/layout/router/start lifecycle replaced by React Router and shared SiteLayout.
+tailwind.config.js.txt,Copied,client/tailwind.config.js,Build-time utility CSS compiler config retained for original UI fidelity.
+vite.config.js.txt,Replaced,client/vite.config.js,"Base44, Cloudflare and TanStack plugins removed; Vite React plugin and @ alias retained."
+wrangler.jsonc.txt,Replaced or excluded,,"Base44-specific developer instructions, Wrangler config and Base44 entity config replaced by MERN documentation, Mongoose models and .gitignore."
